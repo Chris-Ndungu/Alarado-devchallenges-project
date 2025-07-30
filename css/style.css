@@ -6,7 +6,44 @@
 
 body {
   height: 100vh;
+  width: 100vw;
+  padding: 2rem 3rem;
 }
+
+/* Navigation bar/header */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.nav-menu-list {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.nav-menu-list > li > a {
+  /* text-decoration: none; */
+}
+
+.nav-toggle-switch {
+  display: flex;
+  gap: 0.2rem;
+  background-color: black;
+  border-radius: 2rem;
+  padding: 2px;
+}
+
+.nav-toggle-switch-sunbackground {
+  background-color: white;
+  border-radius: 100%;
+  align-items: center;
+}
+/* Body */
+
+/* Footer */
 
 .author-info {
   font-size: 14px;
